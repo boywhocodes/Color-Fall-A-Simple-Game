@@ -498,12 +498,12 @@ RGBCatcher = new function()
 		{// If all blocks have been added
 			if (addBlock() === false)
 			{
-				// levelUp = true;
-				// level++;
-        //
-        // blocksPerLevel += 20
-				// blocksSpawnSec *= 0.799;
-				// blockData['ySpeed'] *= 7.81;
+				levelUp = true;
+				level++;
+
+        blocksPerLevel += 20
+				blocksSpawnSec *= 0.799;
+				blockData['ySpeed'] *= 7.81;
 
 				basketData['xSpeed'] *= 1.82;
 				resetLevel();

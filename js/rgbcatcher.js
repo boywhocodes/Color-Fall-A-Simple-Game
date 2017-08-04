@@ -471,7 +471,7 @@ RGBCatcher = new function()
 			{
 				context.clearRect(0, 0, canvas.width, canvas.height);
 
-				info.innerHTML = '<p>Level ' + (level-1) + ' cleared!</p><p>Get ready for level ' + level + '!</p>';
+				info.innerHTML = `<p class="level-up">Level ${level-1} cleared!</p><br/><p class="level-up">Get ready for level ${level}!</p>`;
 				info.style.display = 'block';
 
 

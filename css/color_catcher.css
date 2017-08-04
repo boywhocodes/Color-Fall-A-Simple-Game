@@ -26,6 +26,25 @@
 
 }
 
+.level-up
+  {
+  font-size: 32px;
+
+  animation:myfirst 40s;
+  top: 60px;
+
+  }
+
+  @keyframes myfirst
+  {
+  0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  100% {color:green;}
+  }
+
+
+
 #info {
     position: absolute;
     top: 32px; /* (10px top margin + 200px of total height for the #canvas element - 26px of total height for the #info element) / 2 */
@@ -39,6 +58,48 @@
 
     width: 290px;
     height: 26px;
+
+    animation: myfirst 120s;
+    /*animation-iteration-count: infinite;*/
+
+}
+
+@keyframes myfirst
+{
+0%   {color:red;}
+3%  {color:yellow;}
+6%  {color:blue;}
+9% {color:green;}
+12%   {color:#8568ED;}
+15%  {color:#EBEB2C;}
+18%  {color:#1019B8;}
+21% {color:#5F854E;}
+24%   {color:#ED706B;}
+27%  {color:#94898C;}
+30%  {color:#730A59;}
+33% {color:#A8A013;}
+36%   {color:red;}
+39%  {color:yellow;}
+42%  {color:blue;}
+45% {color:green;}
+48%   {color:#8568ED;}
+51%  {color:#EBEB2C;}
+54%  {color:#1019B8;}
+57% {color:#5F854E;}
+60%   {color:#ED706B;}
+63%  {color:#94898C;}
+66%  {color:#730A59;}
+69% {color:#A8A013;}
+72%   {color:red;}
+75%  {color:yellow;}
+78%  {color:blue;}
+81% {color:green;}
+84%   {color:#8568ED;}
+87%  {color:#EBEB2C;}
+90%  {color:#1019B8;}
+93% {color:#5F854E;}
+96%   {color:#ED706B;}
+99%  {color:#94898C;}
 
 
 }

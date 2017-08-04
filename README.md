@@ -1,4 +1,7 @@
 ## A Simple Game of Color Fall
+
+https://boywhocodes.github.io/Color-Fall-A-Simple-Game/
+
 ## Background
 
 There's only one thing in the world that is needed in order to become a great software developer...colors! The goal is to steer your ship to safety while avoiding the falling colors. The ship will change colors after every round and the user can collect the ships' colors' blocks for additional points. Points as well a life bar will be displayed on the page. As you steer your ship to the coding promise land, hitting the colors that don't match will result in a loss of HP. The game will end when your HP reaches 0.
@@ -12,7 +15,7 @@ Users will be able to:
  Collect appropriate colors while avoiding the other colors.
  Levels will incrementally increase in difficulty.
  View their score and current ship life status.
- 
+
 ## Architecture and Technologies
 
 This project will be implemented with the following technologies:

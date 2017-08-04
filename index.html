@@ -3,76 +3,30 @@
 <head>
     <title>RGBCatcher</title>
     <script src="js/rgbcatcher.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/color_catcher.css" media="screen" />
+
+
     <style>
         body, html, p {
             margin: 0px;
             padding: 0px;
         }
 
-        #canvas {
-            border: 2px solid #000;
-            margin: 10px;
-            background-color: #000;
 
-        }
-        #info {
-            position: absolute;
-            top: 32px; /* (10px top margin + 200px of total height for the #canvas element - 26px of total height for the #info element) / 2 */
-            left: 555px; /* (10px left margin + 400px of total width for the #canvas element - 200px of total width for the #info element / 2 */
-
-            text-align: center;
-            font: 23px 'Bellefair', serif;
-            color: #fff;
-
-
-
-            width: 250px;
-            height: 26px;
-
-
-        }
-        #game-over {
-          top: 132px; /* (10px top margin + 200px of total height for the #canvas element - 26px of total height for the #info element) / 2 */
-          left: 555px; /* (10px left margin + 400px of total width for the #canvas element - 200px of total width for the #info element / 2 */
-            margin-top: 50px;
-          text-align: center;
-          font: 43px 'Bellefair', serif;
-          color: #fff;
-
-
-
-          width: 450px;
-          height: 126px;
-        }
-
-        /* Some styling for the title screen */
-        span.red {
-            color: #EE4634;
-
-
-        }
-        span.green {
-            color: #05B834;
-
-        }
-        span.blue {
-            color: #165DB8;
-        }
-        span.red, span.green, span.blue {
-            font-weight: bold;
-            font-size: 31px;
-            font-family: 'Bellefair', serif;
-
-            display: flex;
-            align-items: center;
-
-
-        }
     </style>
 </head>
 
 <body>
+  <span class="contact-links">
+    <a href="https://github.com/boywhocodes/Color-Fall-A-Simple-Game">GitHub
+      <i id="github-icon" class="fa fa-github-square" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/alexander-milbert-837812a2/">LinkedIn
+      <i id="linkedin-icon" class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </a>
+  </span>
     <canvas id="canvas" width="1350" height="598"></canvas>
     <div id="info"></div>
 </body>

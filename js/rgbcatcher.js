@@ -101,11 +101,11 @@ Basket.prototype.move = function()
 {
 
 	if (keyOn[37])
-		this.x -= this.xSpeed;
+		this.x -= this.xSpeed - 1;
 
 
 	if (keyOn[39])
-		this.x += this.xSpeed;
+		this.x += this.xSpeed - 1;
 
 
 	if (this.x < 0)
@@ -225,8 +225,8 @@ RGBCatcher = new function()
 		['width', 60],
 		['height', 17],
 		['xSpeed', 9],
-		['color', '#1DD455'],
-		['oldColor', '#1DD455']
+		['color', '#fff'],
+		['oldColor', '#fff']
 	];
 	let blockData = [
 		['width', 15],
@@ -348,6 +348,9 @@ RGBCatcher = new function()
 			info.innerHTML = '<p><span class="red">A</span><span class="green">Simple</span><span class="blue">Game</span><span class="red">Of</span><span class="green">Color</span><span class="blue">Fall</span></p><br/><p>Don\'t get crushed by the blocks! Collect points by catching blocks that match the color of your ship. Dodge the other blocks, they hurt you. <br/><br/>WATCH OUT: Blocks fall fast.  Move with the Left and Right arrows.  <br/><br/>Press SpaceBar to start</p>';
 
 
+
+
+
 			infoScreenChange = false;
 		}
 
@@ -431,6 +434,7 @@ RGBCatcher = new function()
 
 			clearInterval(interval);
 			interval = setInterval(titleScreen, 30/1000);
+
 		}
 	}
 

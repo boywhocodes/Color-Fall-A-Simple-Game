@@ -1,0 +1,81 @@
+.contact-links {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  /*background: black;*/
+  /*background-color: white;*/
+  z-index: 1
+
+}
+
+#github-icon, #linkedin-icon {
+  /*margin: 10px 15px;*/
+
+  font-size: 30px;
+  z-index: 1;
+}
+
+/*#github-icon:hover, #linkedin-icon:hover {
+  font-size: 50px;
+}*/
+
+#canvas {
+    border: 2px solid #000;
+    margin: 10px;
+    background-image: url(http://cdn.wallpapersafari.com/76/89/CtZcv4.png);
+
+}
+
+#info {
+    position: absolute;
+    top: 32px; /* (10px top margin + 200px of total height for the #canvas element - 26px of total height for the #info element) / 2 */
+    left: 555px; /* (10px left margin + 400px of total width for the #canvas element - 200px of total width for the #info element / 2 */
+
+    text-align: center;
+    font: 23px 'Bellefair', serif;
+    color: #fff;
+
+
+
+    width: 290px;
+    height: 26px;
+
+
+}
+#game-over {
+  top: 132px; /* (10px top margin + 200px of total height for the #canvas element - 26px of total height for the #info element) / 2 */
+  left: 555px; /* (10px left margin + 400px of total width for the #canvas element - 200px of total width for the #info element / 2 */
+    margin-top: 50px;
+  text-align: center;
+  font: 43px 'Bellefair', serif;
+  color: #fff;
+
+
+
+  width: 450px;
+  height: 126px;
+}
+
+/* Some styling for the title screen */
+span.red {
+    color: #EE4634;
+
+
+}
+span.green {
+    color: #05B834;
+
+}
+span.blue {
+    color: #165DB8;
+}
+span.red, span.green, span.blue {
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'Bellefair', serif;
+
+    display: flex;
+    align-items: center;
+
+
+}

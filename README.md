@@ -28,10 +28,10 @@ color_catcher.js: this script will handle the logic of the behavior of any movin
 
 ## Wireframes
 
-Intro/Instruction Page:
+Intro/Instruction Page: https://user-images.githubusercontent.com/26631708/28964127-6289b4ce-78c0-11e7-8143-a1342e927429.png
 
 Gameplay Page:
-
+https://user-images.githubusercontent.com/26631708/28964206-a8f3dcd2-78c0-11e7-88d5-5adfdf7d344f.png
 ## Implementation Timeline
 
 Day 1: Setup all necessary Node modules, including getting webpack up and running. Create webpack.config.js as well as package.json. Write a basic entry file and the bare bones of all scripts outlined above. Do some researches how to create animation with sprites. Goals for the day:

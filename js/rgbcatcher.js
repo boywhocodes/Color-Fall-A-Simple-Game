@@ -466,7 +466,7 @@ RGBCatcher = new function()
 		}
 
 		if (levelUp)
-		{
+		{ //Upon hitting an info screeen or in the case of a levelUp clear cnavas and display text
 			if (infoScreenChange)
 			{
 				context.clearRect(0, 0, canvas.width, canvas.height);

@@ -599,7 +599,7 @@ RGBCatcher = new function()
 
 
 	function addBlock()
-	{
+	{ // Will add block if the total number pawned isn't equal to currnet amount spawned
 		if (blocksSpawned != blocksPerLevel * level)
 		{
 			blocks[blocks.length] = new Block(blockData);

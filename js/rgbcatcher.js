@@ -298,7 +298,7 @@ RGBCatcher = new function()
   // Resets
 
 
-
+// when game reset reset a ,ultitude of factors health hp, etc.  reset called when new level as well
 
 	function resetGame()
 	{

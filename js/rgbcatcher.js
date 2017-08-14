@@ -238,7 +238,7 @@ RGBCatcher = new function()
 
 	let blocksPerLevel = 30;
 	let blocksSpawnSec = 0.01;
-	let blocksSpawned = 4;
+	let blocksSpawned = 5;
 	let blocksOnScreen = 0;
 	let blocks = [];
 

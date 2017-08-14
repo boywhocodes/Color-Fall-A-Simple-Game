@@ -351,7 +351,7 @@ RGBCatcher = new function()
 
 
 
-			infoScreenChange = false;
+			infoScreenChange = false
 		}
 
 

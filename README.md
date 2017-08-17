@@ -4,7 +4,7 @@ https://boywhocodes.github.io/Color-Fall-A-Simple-Game/
 
 ## Background
 
-There's only one thing in the world that is needed in order to become a great software developer...colors! The goal is to steer your ship to safety while avoiding the falling colors. The ship will change colors after every round and the user can collect the ships' colors' blocks for additional points. Points as well a life bar will be displayed on the page. As you steer your ship to the coding promise land, hitting the colors that don't match will result in a loss of HP. The game will end when your HP reaches 0
+There's only one thing in the world that is needed in order to become a great software developer...colors! The goal is to steer your ship to safety while avoiding the falling colors. The ship will change colors after every round and the user can collect the ships' colors' blocks for additional points. Points as well a life bar will be displayed on the page. As you steer your ship to the coding promise land, hitting the colors that don't match will result in a loss of HP. The game will end when your HP reaches 0.
 
 ## Functionality & MVP
 
@@ -31,10 +31,6 @@ color_catcher.js: this script will handle the logic of the behavior of any movin
 Intro/Instruction Page: ![alt text](https://user-images.githubusercontent.com/26631708/28964127-6289b4ce-78c0-11e7-8143-a1342e927429.png)
 
 Gameplay Page: ![alt text](https://user-images.githubusercontent.com/26631708/28964206-a8f3dcd2-78c0-11e7-88d5-5adfdf7d344f.png)
-
-## Implementation Timeline
-
-Day 1: Setup all necessary Node modules, including getting webpack up and running. Create webpack.config.js as well as package.json. Write a basic entry file and the bare bones of all scripts outlined above. Do some researches how to create animation with sprites. Goals for the day:
 
 Get a green bundle with webpack
 Learn enough animation with sprites and render an object to the Canvas element

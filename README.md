@@ -34,7 +34,7 @@ Gameplay Page: ![alt text](https://user-images.githubusercontent.com/26631708/28
 
 ## Extra features worth looking into down the line:
 
- Varying types of colors.
- The ability to change level of difficulty
+ Varying types of colors that the user can select
+ The ability to change pace of play
  Change background
  Add a time challenge, seeing how many blocks can be taken in a certain interval

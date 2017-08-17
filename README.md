@@ -32,11 +32,6 @@ Intro/Instruction Page: ![alt text](https://user-images.githubusercontent.com/26
 
 Gameplay Page: ![alt text](https://user-images.githubusercontent.com/26631708/28964206-a8f3dcd2-78c0-11e7-88d5-5adfdf7d344f.png)
 
-Complete rendering of game field, ship with changing colors.
-Render a square block to the Canvas.
-Implement random functionality and collision awareness into blocks.
-Day 4: Install the controls for the user to interact with the game. Style the frontend, making it polished and professional with it's beautiful tones of simplicity. Goals for the day:
-
 Create controls for the game
 Have a styled Canvas, nice looking controls,title, and game over page
 Polish the game with enhanced effects while maintaining minimalistic approach.

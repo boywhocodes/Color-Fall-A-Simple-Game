@@ -22,7 +22,7 @@ This project was implemented with the following technologies:
 
 Vanilla JavaScript for overall structure and game logic,
 HTML5 Canvas for DOM manipulation and rendering.
-In addition to the webpack entry file, there will be one script involved in this project:
+In addition to the webpack entry file, another script is involved in this project:
 
 color_catcher.js: this script will handle the logic of the behavior of any moving objects on the screen, how they interact when they collide, how the score and HP is adjusted and how levels incrementally add difficulty to the game.
 

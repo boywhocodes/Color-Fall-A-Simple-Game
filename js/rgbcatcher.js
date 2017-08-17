@@ -380,7 +380,6 @@ RGBCatcher = new function()
 	{
 		frameTime = new Date().getTime();
 
-
 		if (infoScreenChange)
 		{
 
@@ -406,10 +405,6 @@ RGBCatcher = new function()
 			info.style.display = 'block';
 
     }
-
-
-
-
 			infoScreenChange = false;
 		}
 
@@ -418,9 +413,7 @@ RGBCatcher = new function()
 		{
 			infoScreenChange = true;
 
-
 			startTime = frameTime;
-
 
 			clearInterval(interval);
 			interval = setInterval(titleScreen, 30/1000);

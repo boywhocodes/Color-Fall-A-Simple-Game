@@ -360,15 +360,11 @@ RGBCatcher = new function()
 
 			infoScreenChange = true;
 
-
 			info.style.display = 'none';
-
 
 			clearInterval(interval);
 
-
 			resetGame();
-
 
 			interval = setInterval(gameLoop, 1000/80)
 		}

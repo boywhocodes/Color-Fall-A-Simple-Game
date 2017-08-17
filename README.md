@@ -32,10 +32,6 @@ Intro/Instruction Page: ![alt text](https://user-images.githubusercontent.com/26
 
 Gameplay Page: ![alt text](https://user-images.githubusercontent.com/26631708/28964206-a8f3dcd2-78c0-11e7-88d5-5adfdf7d344f.png)
 
-Complete the ship functionality and make sure that movement is present.
-Update game logic when the collision happens with another block.
-Day 3: Enhance 'color_catcher' and connect to HTML file. Goals for the day:
-
 Complete rendering of game field, ship with changing colors.
 Render a square block to the Canvas.
 Implement random functionality and collision awareness into blocks.

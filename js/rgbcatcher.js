@@ -347,17 +347,11 @@ RGBCatcher = new function()
 
 			info.innerHTML = '<p><span class="red">A</span><span class="green">Simple</span><span class="blue">Game</span><span class="red">Of</span><span class="green">Color</span><span class="blue">Fall</span></p><br/><p>Don\'t get crushed by the blocks! Collect points by catching blocks that match the color of your ship. Dodge the other blocks, they hurt you. <br/><br/>WATCH OUT: Blocks fall fast.  Move with the Left and Right arrows.  <br/><br/>Press SpaceBar to start</p>';
 
-
-
-
-
 			infoScreenChange = false;
 		}
 
-
 		if (keyOn[32])
 		{
-
 			infoScreenChange = true;
 
 			info.style.display = 'none';

@@ -32,11 +32,6 @@ Intro/Instruction Page: ![alt text](https://user-images.githubusercontent.com/26
 
 Gameplay Page: ![alt text](https://user-images.githubusercontent.com/26631708/28964206-a8f3dcd2-78c0-11e7-88d5-5adfdf7d344f.png)
 
-Create controls for the game
-Have a styled Canvas, nice looking controls,title, and game over page
-Polish the game with enhanced effects while maintaining minimalistic approach.
-Bonus features
-
 ## Extra features worth looking into down the line:
 
  Varying types of colors.
